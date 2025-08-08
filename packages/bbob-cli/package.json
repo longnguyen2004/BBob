@@ -1,6 +1,6 @@
 {
   "name": "@lng2004/bbob-cli",
-  "version": "4.2.0",
+  "version": "4.2.0-esm-fixes",
   "description": "Comand line bbcode parser",
   "bin": {
     "bbob": "lib/cli.js"
@@ -26,8 +26,8 @@
     }
   },
   "dependencies": {
-    "@lng2004/bbob-html": "*",
-    "@lng2004/bbob-preset-html5": "*"
+    "@lng2004/bbob-html": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-preset-html5": "^4.2.0-esm-fixes"
   },
   "devDependencies": {
     "@types/node": "20.11.30"

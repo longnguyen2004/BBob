@@ -1,6 +1,6 @@
 {
   "name": "@lng2004/bbob-core",
-  "version": "4.2.0",
+  "version": "4.2.0-esm-fixes",
   "description": "⚡️Blazing-fast js-bbcode-parser, bbcode js, that transforms and parses to AST with plugin support in pure javascript, no dependencies",
   "keywords": [
     "bbcode",
@@ -20,9 +20,9 @@
     "core"
   ],
   "dependencies": {
-    "@lng2004/bbob-parser": "*",
-    "@lng2004/bbob-plugin-helper": "*",
-    "@lng2004/bbob-types": "*"
+    "@lng2004/bbob-parser": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-plugin-helper": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-types": "^4.2.0-esm-fixes"
   },
   "main": "lib/index.js",
   "module": "es/index.mjs",

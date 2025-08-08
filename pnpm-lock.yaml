@@ -183,10 +183,10 @@ importers:
   examples/react-vite:
     dependencies:
       '@lng2004/bbob-preset-react':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-preset-react
       '@lng2004/bbob-react':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-react
       react:
         specifier: ^18.3.1
@@ -229,13 +229,13 @@ importers:
   examples/svelte-vite:
     dependencies:
       '@lng2004/bbob-html':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-html
       '@lng2004/bbob-preset-html5':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-preset-html5
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-types
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
@@ -263,13 +263,13 @@ importers:
   examples/vite:
     dependencies:
       '@lng2004/bbob-html':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-html
       '@lng2004/bbob-preset-html5':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-preset-html5
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-types
     devDependencies:
       typescript:
@@ -282,10 +282,10 @@ importers:
   examples/vue2-example:
     dependencies:
       '@lng2004/bbob-preset-vue':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-preset-vue
       '@lng2004/bbob-vue2':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-vue2
       core-js:
         specifier: 3.26.1
@@ -307,10 +307,10 @@ importers:
   examples/vue3-vite:
     dependencies:
       '@lng2004/bbob-preset-vue':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-preset-vue
       '@lng2004/bbob-vue3':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../../packages/bbob-vue3
       vue:
         specifier: ^3.4.29
@@ -332,10 +332,10 @@ importers:
   packages/bbob-cli:
     dependencies:
       '@lng2004/bbob-html':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-html
       '@lng2004/bbob-preset-html5':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-preset-html5
     devDependencies:
       '@types/node':
@@ -345,81 +345,81 @@ importers:
   packages/bbob-core:
     dependencies:
       '@lng2004/bbob-parser':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-parser
       '@lng2004/bbob-plugin-helper':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-plugin-helper
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
 
   packages/bbob-html:
     dependencies:
       '@lng2004/bbob-core':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-core
       '@lng2004/bbob-plugin-helper':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-plugin-helper
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
 
   packages/bbob-parser:
     dependencies:
       '@lng2004/bbob-plugin-helper':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-plugin-helper
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
 
   packages/bbob-plugin-helper:
     dependencies:
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
 
   packages/bbob-preset:
     dependencies:
       '@lng2004/bbob-plugin-helper':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-plugin-helper
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
     devDependencies:
       '@lng2004/bbob-core':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-core
 
   packages/bbob-preset-html5:
     dependencies:
       '@lng2004/bbob-plugin-helper':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-plugin-helper
       '@lng2004/bbob-preset':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-preset
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
     devDependencies:
       '@lng2004/bbob-core':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-core
       '@lng2004/bbob-html':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-html
 
   packages/bbob-preset-react:
     dependencies:
       '@lng2004/bbob-preset-html5':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-preset-html5
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
     devDependencies:
       '@types/react':
@@ -435,29 +435,29 @@ importers:
   packages/bbob-preset-vue:
     dependencies:
       '@lng2004/bbob-preset-html5':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-preset-html5
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
 
   packages/bbob-react:
     dependencies:
       '@lng2004/bbob-core':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-core
       '@lng2004/bbob-html':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-html
       '@lng2004/bbob-plugin-helper':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-plugin-helper
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
     devDependencies:
       '@lng2004/bbob-preset-react':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-preset-react
       '@testing-library/jest-dom':
         specifier: ^5.16.4
@@ -480,20 +480,20 @@ importers:
   packages/bbob-vue2:
     dependencies:
       '@lng2004/bbob-core':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-core
       '@lng2004/bbob-html':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-html
       '@lng2004/bbob-plugin-helper':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-plugin-helper
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
     devDependencies:
       '@lng2004/bbob-preset-vue':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-preset-vue
       '@testing-library/vue':
         specifier: 5.9.0
@@ -508,20 +508,20 @@ importers:
   packages/bbob-vue3:
     dependencies:
       '@lng2004/bbob-core':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-core
       '@lng2004/bbob-html':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-html
       '@lng2004/bbob-plugin-helper':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-plugin-helper
       '@lng2004/bbob-types':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-types
     devDependencies:
       '@lng2004/bbob-preset-vue':
-        specifier: '*'
+        specifier: ^4.2.0-esm-fixes
         version: link:../bbob-preset-vue
       '@testing-library/vue':
         specifier: 7.0.0

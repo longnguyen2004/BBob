@@ -1,6 +1,6 @@
 {
   "name": "@lng2004/bbob-vue3",
-  "version": "4.2.0",
+  "version": "4.2.0-esm-fixes",
   "description": "A BBCode to Vue3 Renderer part of @bbob",
   "keywords": [
     "vue",
@@ -10,21 +10,21 @@
     "bbob"
   ],
   "dependencies": {
-    "@lng2004/bbob-core": "*",
-    "@lng2004/bbob-html": "*",
-    "@lng2004/bbob-plugin-helper": "*",
-    "@lng2004/bbob-types": "*"
+    "@lng2004/bbob-core": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-html": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-plugin-helper": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-types": "^4.2.0-esm-fixes"
   },
   "peerDependencies": {
     "vue": "3.x"
   },
   "devDependencies": {
-    "@lng2004/bbob-preset-vue": "*",
+    "@lng2004/bbob-preset-vue": "^4.2.0-esm-fixes",
     "@testing-library/vue": "7.0.0",
-    "@vue/compiler-sfc": "*",
-    "@vue/runtime-dom": "*",
-    "@vue/runtime-core": "*",
     "@vue/compiler-dom": "*",
+    "@vue/compiler-sfc": "*",
+    "@vue/runtime-core": "*",
+    "@vue/runtime-dom": "*",
     "@vue/test-utils": "2.4.5",
     "vue": "*"
   },

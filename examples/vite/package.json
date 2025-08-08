@@ -1,7 +1,7 @@
 {
   "name": "vite",
   "private": true,
-  "version": "0.0.0",
+  "version": "4.2.0-esm-fixes",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@lng2004/bbob-preset-html5": "*",
-    "@lng2004/bbob-html": "*",
-    "@lng2004/bbob-types": "*"
+    "@lng2004/bbob-html": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-preset-html5": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-types": "^4.2.0-esm-fixes"
   },
   "devDependencies": {
     "typescript": "^5.2.2",

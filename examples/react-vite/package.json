@@ -1,7 +1,7 @@
 {
   "name": "react-vite",
   "private": true,
-  "version": "0.0.0",
+  "version": "4.2.0-esm-fixes",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lng2004/bbob-preset-react": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-react": "^4.2.0-esm-fixes",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "@lng2004/bbob-preset-react": "*",
-    "@lng2004/bbob-react": "*"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

@@ -1,6 +1,6 @@
 {
   "name": "@lng2004/bbob-vue2",
-  "version": "4.2.0",
+  "version": "4.2.0-esm-fixes",
   "description": "A BBCode to Vue2 Renderer part of @bbob",
   "keywords": [
     "vue",
@@ -10,16 +10,16 @@
     "bbob"
   ],
   "dependencies": {
-    "@lng2004/bbob-core": "*",
-    "@lng2004/bbob-html": "*",
-    "@lng2004/bbob-plugin-helper": "*",
-    "@lng2004/bbob-types": "*"
+    "@lng2004/bbob-core": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-html": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-plugin-helper": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-types": "^4.2.0-esm-fixes"
   },
   "peerDependencies": {
     "vue": "2.x"
   },
   "devDependencies": {
-    "@lng2004/bbob-preset-vue": "*",
+    "@lng2004/bbob-preset-vue": "^4.2.0-esm-fixes",
     "@testing-library/vue": "5.9.0",
     "vue": "2.7.16",
     "vue-template-compiler": "2.7.16"

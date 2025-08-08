@@ -1,6 +1,6 @@
 {
   "name": "@lng2004/bbob-plugin-helper",
-  "version": "4.2.0",
+  "version": "4.2.0-esm-fixes",
   "description": "Set of utils to help write plugins for @bbob/core",
   "keywords": [
     "bbob",
@@ -21,7 +21,7 @@
   "browserName": "BbobPluginHelper",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@lng2004/bbob-types": "*"
+    "@lng2004/bbob-types": "^4.2.0-esm-fixes"
   },
   "exports": {
     ".": {

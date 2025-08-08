@@ -1,6 +1,6 @@
 {
   "name": "@lng2004/bbob-react",
-  "version": "4.2.0",
+  "version": "4.2.0-esm-fixes",
   "description": "A BBCode to React Renderer part of @bbob",
   "keywords": [
     "react",
@@ -9,21 +9,21 @@
     "bbob"
   ],
   "dependencies": {
-    "@lng2004/bbob-core": "*",
-    "@lng2004/bbob-html": "*",
-    "@lng2004/bbob-plugin-helper": "*",
-    "@lng2004/bbob-types": "*"
+    "@lng2004/bbob-core": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-html": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-plugin-helper": "^4.2.0-esm-fixes",
+    "@lng2004/bbob-types": "^4.2.0-esm-fixes"
   },
   "peerDependencies": {
     "react": "> 15.0"
   },
   "devDependencies": {
-    "@lng2004/bbob-preset-react": "*",
+    "@lng2004/bbob-preset-react": "^4.2.0-esm-fixes",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "13.x",
+    "@types/react": "18.x",
     "react": "18.x",
-    "react-dom": "18.x",
-    "@types/react": "18.x"
+    "react-dom": "18.x"
   },
   "main": "lib/index.js",
   "module": "es/index.mjs",
