@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/parser",
+  "name": "@lng2004/bbob-parser",
   "version": "4.2.0",
   "description": "A BBCode to AST Parser part of @bbob",
   "keywords": [
@@ -20,8 +20,8 @@
     "types"
   ],
   "dependencies": {
-    "@bbob/plugin-helper": "*",
-    "@bbob/types": "*"
+    "@lng2004/bbob-plugin-helper": "*",
+    "@lng2004/bbob-types": "*"
   },
   "main": "lib/index.js",
   "module": "es/index.mjs",

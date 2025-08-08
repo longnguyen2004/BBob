@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/preset-html5",
+  "name": "@lng2004/bbob-preset-html5",
   "version": "4.2.0",
   "description": "HTML5 preset to transform BBCode to HTML for @bbob/parser",
   "keywords": [
@@ -8,13 +8,13 @@
     "bbob"
   ],
   "dependencies": {
-    "@bbob/plugin-helper": "*",
-    "@bbob/preset": "*",
-    "@bbob/types": "*"
+    "@lng2004/bbob-plugin-helper": "*",
+    "@lng2004/bbob-preset": "*",
+    "@lng2004/bbob-types": "*"
   },
   "devDependencies": {
-    "@bbob/core": "*",
-    "@bbob/html": "*"
+    "@lng2004/bbob-core": "*",
+    "@lng2004/bbob-html": "*"
   },
   "main": "lib/index.js",
   "module": "es/index.mjs",

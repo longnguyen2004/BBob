@@ -9,8 +9,8 @@ import {
   TAB,
   EQ,
   N,
-} from '@bbob/plugin-helper';
-import type { LexerOptions, LexerTokenizer } from "@bbob/types";
+} from '@lng2004/bbob-plugin-helper';
+import type { LexerOptions, LexerTokenizer } from "@lng2004/bbob-types";
 
 import {
   Token, TYPE_ATTR_NAME, TYPE_ATTR_VALUE, TYPE_NEW_LINE, TYPE_SPACE, TYPE_TAG, TYPE_WORD,

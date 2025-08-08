@@ -5,11 +5,11 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@bbob/preset-html5':
+  '@lng2004/bbob-preset-html5':
     specifier: workspace:*
     version: link:../bbob-preset-html5
 
 devDependencies:
-  '@bbob/core':
+  '@lng2004/bbob-core':
     specifier: workspace:*
     version: link:../bbob-core

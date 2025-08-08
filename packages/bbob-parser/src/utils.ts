@@ -1,7 +1,7 @@
 import {
   QUOTEMARK,
   BACKSLASH,
-} from '@bbob/plugin-helper';
+} from '@lng2004/bbob-plugin-helper';
 
 export type CharGrabberOptions = {
   onSkip?: () => void

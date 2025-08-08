@@ -1,15 +1,15 @@
 /* eslint-disable no-use-before-define,import/prefer-default-export */
-import core from "@bbob/core";
-import * as html from "@bbob/html";
+import core from "@lng2004/bbob-core";
+import * as html from "@lng2004/bbob-html";
 import { h, VNodeArrayChildren } from "vue";
 
-import type { BBobCoreOptions, BBobPlugins, TagNodeTree } from "@bbob/types";
+import type { BBobCoreOptions, BBobPlugins, TagNodeTree } from "@lng2004/bbob-types";
 
 import {
   TagNode,
   isStringNode,
   isTagNode,
-} from "@bbob/plugin-helper";
+} from "@lng2004/bbob-plugin-helper";
 
 type CreateElement = typeof h;
 

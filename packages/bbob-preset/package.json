@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/preset",
+  "name": "@lng2004/bbob-preset",
   "version": "4.2.0",
   "description": "Base preset for creating extensible presets for @bbob/core",
   "keywords": [
@@ -15,11 +15,11 @@
     "types"
   ],
   "dependencies": {
-    "@bbob/plugin-helper": "*",
-    "@bbob/types": "*"
+    "@lng2004/bbob-plugin-helper": "*",
+    "@lng2004/bbob-types": "*"
   },
   "devDependencies": {
-    "@bbob/core": "*"
+    "@lng2004/bbob-core": "*"
   },
   "main": "lib/index.js",
   "module": "es/index.mjs",

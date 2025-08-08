@@ -5,10 +5,10 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@bbob/preset-vue':
+  '@lng2004/bbob-preset-vue':
     specifier: '*'
     version: link:../../packages/bbob-preset-vue
-  '@bbob/vue2':
+  '@lng2004/bbob-vue2':
     specifier: '*'
     version: link:../../packages/bbob-vue2
   core-js:

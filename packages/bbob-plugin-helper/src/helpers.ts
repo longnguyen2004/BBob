@@ -1,4 +1,4 @@
-import type { NodeContent, StringNode } from "@bbob/types";
+import type { NodeContent, StringNode } from "@lng2004/bbob-types";
 
 import { N } from './char.js';
 import type { TagNode } from "./TagNode.js";

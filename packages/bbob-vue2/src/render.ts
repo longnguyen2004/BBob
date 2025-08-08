@@ -1,9 +1,9 @@
 /* eslint-disable no-use-before-define,import/prefer-default-export */
-import core from '@bbob/core';
-import * as html from '@bbob/html';
+import core from '@lng2004/bbob-core';
+import * as html from '@lng2004/bbob-html';
 
-import { isStringNode, isTagNode } from '@bbob/plugin-helper';
-import type { TagNodeTree, TagNode, BBobPlugins, BBobCoreOptions } from '@bbob/types';
+import { isStringNode, isTagNode } from '@lng2004/bbob-plugin-helper';
+import type { TagNodeTree, TagNode, BBobPlugins, BBobCoreOptions } from '@lng2004/bbob-types';
 import type { CreateElement, VNodeChildrenArrayContents } from 'vue';
 import type { StyleValue } from 'vue/types/jsx';
 

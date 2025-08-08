@@ -3,14 +3,14 @@
  */
 
 import React from 'react';
-import preset from '@bbob/preset-react';
+import preset from '@lng2004/bbob-preset-react';
 import '@testing-library/jest-dom'
 
 import { render } from '@testing-library/react'
 
 import BBCode from '../src';
 
-import type { BBobCoreOptions } from "@bbob/types";
+import type { BBobCoreOptions } from "@lng2004/bbob-types";
 
 const plugins = [preset()]
 
@@ -18,7 +18,7 @@ const renderBBCode = (input: string, options?: BBobCoreOptions) => render(
     <BBCode plugins={plugins} options={options}>{input}</BBCode>
 ).container.innerHTML;
 
-describe('@bbob/react', () => {
+describe('@lng2004/bbob-react', () => {
   test('[b]bolded text[/b]', () => {
     const html = renderBBCode('[b]bolded text[/b]');
 

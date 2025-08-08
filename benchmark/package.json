@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/benchmark",
+  "name": "@lng2004/bbob-benchmark",
   "main": "index.js",
   "private": true,
   "directories": {
@@ -13,8 +13,8 @@
     "name": "Nikolay Kostyurin <jilizart@gmail.com>"
   },
   "dependencies": {
-    "@bbob/parser": "*",
-    "@bbob/plugin-helper": "*",
+    "@lng2004/bbob-parser": "*",
+    "@lng2004/bbob-plugin-helper": "*",
     "benchmark": "2.1.4",
     "picocolors": "1.0.0",
     "xbbcode-parser": "0.1.2",

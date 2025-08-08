@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-import preset from '@bbob/preset-vue';
+import preset from '@lng2004/bbob-preset-vue';
 import { render } from '@testing-library/vue'
 import Component from '../src/Component'
 
@@ -20,7 +20,7 @@ const renderBBCode = (input, options) => {
   return html()
 }
 
-describe('@bbob/vue2', () => {
+describe('@lng2004/bbob-vue2', () => {
   test('[b]bolded text[/b]', () => {
     const html = renderBBCode('[b]bolded text[/b]');
 

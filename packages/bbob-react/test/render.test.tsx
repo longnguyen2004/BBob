@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from "../src";
 
-describe('@bbob/react render', () => {
+describe('@lng2004/bbob-react render', () => {
   test('render simple b tag', () => {
     const html = render('[b]boldedtext[/b]');
 

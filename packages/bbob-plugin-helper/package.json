@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/plugin-helper",
+  "name": "@lng2004/bbob-plugin-helper",
   "version": "4.2.0",
   "description": "Set of utils to help write plugins for @bbob/core",
   "keywords": [
@@ -21,7 +21,7 @@
   "browserName": "BbobPluginHelper",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@bbob/types": "*"
+    "@lng2004/bbob-types": "*"
   },
   "exports": {
     ".": {

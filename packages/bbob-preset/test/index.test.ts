@@ -1,8 +1,8 @@
 import { createPreset } from '../src';
-import { createTree } from '@bbob/core'
-import type { PresetTagsDefinition, BBobCoreOptions } from '@bbob/types';
+import { createTree } from '@lng2004/bbob-core'
+import type { PresetTagsDefinition, BBobCoreOptions } from '@lng2004/bbob-types';
 
-describe('@bbob/preset', () => {
+describe('@lng2004/bbob-preset', () => {
   const presetFactory = <Tags extends PresetTagsDefinition = PresetTagsDefinition>(defTags: Tags) => {
     const processor = jest.fn((tags, tree, core, options) => tags)
     const preset = createPreset<Tags>(defTags, processor)

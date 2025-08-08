@@ -1,5 +1,5 @@
 {
-  "name": "bbob",
+  "name": "@lng2004/bbob",
   "scripts": {
     "prepublishOnly": "npm run test",
     "bootstrap": "pnpm re",
@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@bbob/scripts": "*",
+    "@lng2004/bbob-scripts": "*",
     "@changesets/changelog-github": "0.4.8",
     "@changesets/cli": "2.26.2",
     "@commitlint/cli": "13.2.1",

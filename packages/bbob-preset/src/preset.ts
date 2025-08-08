@@ -1,4 +1,4 @@
-import { isTagNode } from "@bbob/plugin-helper";
+import { isTagNode } from "@lng2004/bbob-plugin-helper";
 
 import type {
   BBobCoreTagNodeTree,
@@ -8,7 +8,7 @@ import type {
   PresetOptions,
   PresetTagsDefinition,
   ProcessorFunction
-} from "@bbob/types";
+} from "@lng2004/bbob-types";
 
 export function process<Tags extends PresetTagsDefinition = PresetTagsDefinition, Options extends PresetOptions = PresetOptions>(
   tags: Tags,

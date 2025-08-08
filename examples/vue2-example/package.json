@@ -7,8 +7,8 @@
     "generate": "vue-cli-service build"
   },
   "dependencies": {
-    "@bbob/preset-vue": "*",
-    "@bbob/vue2": "*",
+    "@lng2004/bbob-preset-vue": "*",
+    "@lng2004/bbob-vue2": "*",
     "core-js": "3.26.1",
     "vue": "2.7.16"
   },

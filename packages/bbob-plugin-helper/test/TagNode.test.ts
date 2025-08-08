@@ -1,6 +1,6 @@
 import { TagNode } from '../src'
 
-describe('@bbob/plugin-helper/TagNode', () => {
+describe('@lng2004/bbob-plugin-helper/TagNode', () => {
   test('create', () => {
     const tagNode = TagNode.create('test', {test: 1}, ['Hello'], {from: 0, to: 10});
 

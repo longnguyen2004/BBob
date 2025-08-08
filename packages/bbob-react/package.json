@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/react",
+  "name": "@lng2004/bbob-react",
   "version": "4.2.0",
   "description": "A BBCode to React Renderer part of @bbob",
   "keywords": [
@@ -9,16 +9,16 @@
     "bbob"
   ],
   "dependencies": {
-    "@bbob/core": "*",
-    "@bbob/html": "*",
-    "@bbob/plugin-helper": "*",
-    "@bbob/types": "*"
+    "@lng2004/bbob-core": "*",
+    "@lng2004/bbob-html": "*",
+    "@lng2004/bbob-plugin-helper": "*",
+    "@lng2004/bbob-types": "*"
   },
   "peerDependencies": {
     "react": "> 15.0"
   },
   "devDependencies": {
-    "@bbob/preset-react": "*",
+    "@lng2004/bbob-preset-react": "*",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "13.x",
     "react": "18.x",

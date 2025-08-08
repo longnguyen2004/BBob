@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import type { BBobCoreOptions, BBobPlugins } from '@bbob/types';
+import type { BBobCoreOptions, BBobPlugins } from '@lng2004/bbob-types';
 
 import { render } from './render';
 

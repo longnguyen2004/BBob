@@ -2,7 +2,7 @@ import toHTML, { BBobHTMLOptions, render } from '../src';
 
 const process = (input: string, params?: BBobHTMLOptions) => toHTML(input, [], params);
 
-describe('@bbob/html', () => {
+describe('@lng2004/bbob-html', () => {
   test('render bbcode tag with single param as html tag', () => {
     const input = '[url=https://ru.wikipedia.org]Text[/url]';
     const expected = '<url https://ru.wikipedia.org="https://ru.wikipedia.org">Text</url>';

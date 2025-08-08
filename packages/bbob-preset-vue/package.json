@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/preset-vue",
+  "name": "@lng2004/bbob-preset-vue",
   "version": "4.2.0",
   "description": "Vue preset to transform BBCode to Vue for @bbob/vue*",
   "keywords": [
@@ -8,8 +8,8 @@
     "vue"
   ],
   "dependencies": {
-    "@bbob/preset-html5": "*",
-    "@bbob/types": "*"
+    "@lng2004/bbob-preset-html5": "*",
+    "@lng2004/bbob-types": "*"
   },
   "main": "lib/index.js",
   "module": "es/index.mjs",

@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/scripts",
+  "name": "@lng2004/bbob-scripts",
   "private": true,
   "bin": {
     "pkg-task": "pkg-task"

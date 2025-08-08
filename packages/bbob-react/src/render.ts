@@ -1,21 +1,21 @@
 /* eslint-disable no-use-before-define */
 import React, { ReactNode } from "react";
-import { render as htmlrender } from "@bbob/html";
-import core from "@bbob/core";
+import { render as htmlrender } from "@lng2004/bbob-html";
+import core from "@lng2004/bbob-core";
 
 import {
   isTagNode,
   isStringNode,
   isEOL,
   TagNode,
-} from "@bbob/plugin-helper";
+} from "@lng2004/bbob-plugin-helper";
 
 import type {
   BBobCoreOptions,
   BBobCoreTagNodeTree,
   BBobPlugins,
   TagNodeTree,
-} from "@bbob/types";
+} from "@lng2004/bbob-types";
 
 const toAST = (
   source: string,

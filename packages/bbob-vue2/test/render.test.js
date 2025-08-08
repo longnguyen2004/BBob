@@ -1,6 +1,6 @@
 import { render } from "../src";
 
-describe('@bbob/vue2 render', () => {
+describe('@lng2004/bbob-vue2 render', () => {
 
   const createElement = (tagName, props, children) => {
     return { tagName, props, children }

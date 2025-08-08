@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import VueBbob from '@bbob/vue2';
+import VueBbob from '@lng2004/bbob-vue2';
 import App from './App.vue';
 
 Vue.config.productionTip = false;

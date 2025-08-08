@@ -1,6 +1,6 @@
-import core from '@bbob/core';
-import { attrsToString, isTagNode, TagNode } from '@bbob/plugin-helper';
-import type { BBobCoreOptions, BBobPlugins, TagNodeTree } from '@bbob/types';
+import core from '@lng2004/bbob-core';
+import { attrsToString, isTagNode, TagNode } from '@lng2004/bbob-plugin-helper';
+import type { BBobCoreOptions, BBobPlugins, TagNodeTree } from '@lng2004/bbob-types';
 
 const SELFCLOSE_END_TAG = '/>';
 const CLOSE_START_TAG = '</';

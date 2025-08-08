@@ -1,4 +1,4 @@
-import type { NodeContent, TagNodeObject, TagNodeTree, TagPosition } from "@bbob/types";
+import type { NodeContent, TagNodeObject, TagNodeTree, TagPosition } from "@lng2004/bbob-types";
 
 import { OPEN_BRAKET, CLOSE_BRAKET, SLASH } from './char.js';
 import {
