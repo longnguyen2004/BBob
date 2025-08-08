@@ -2,8 +2,8 @@ import {
   OPEN_BRAKET,
   CLOSE_BRAKET,
   SLASH,
-} from '@bbob/plugin-helper';
-import type { Token as TokenInterface } from "@bbob/types";
+} from '@lng2004/bbob-plugin-helper';
+import type { Token as TokenInterface } from "@lng2004/bbob-types";
 
 // type, value, line, row, start pos, end pos
 

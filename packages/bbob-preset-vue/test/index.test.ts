@@ -1,11 +1,11 @@
-import type { PresetTagFunction } from "@bbob/types";
+import type { PresetTagFunction } from "@lng2004/bbob-types";
 
 import preset, { createTags, tagAttr } from '../src'
 
 const tagFactory = (tag: string): PresetTagFunction => jest.fn((...args) => ({ tag }))
 const createTag = (tag: string, style: Record<string, string>) => ({ tag, ...tagAttr(style)})
 
-describe('@bbob/preset-vue', () => {
+describe('@lng2004/bbob-preset-vue', () => {
   test('is a function', () => {
     expect(preset).toBeInstanceOf(Function)
   })

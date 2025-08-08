@@ -1,5 +1,5 @@
-import html from '@bbob/html'
-import presetHTML5 from '@bbob/preset-html5'
+import html from '@lng2004/bbob-html'
+import presetHTML5 from '@lng2004/bbob-preset-html5'
 
 export function run(stdin = process.stdin, stdout = process.stdout) {
   stdin.setEncoding('utf8');

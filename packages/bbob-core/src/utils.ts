@@ -1,5 +1,5 @@
 /* eslint-disable no-plusplus */
-import { IterateCallback } from "@bbob/types";
+import { IterateCallback } from "@lng2004/bbob-types";
 
 const isObj = (value: unknown): value is Record<string, unknown> => (typeof value === 'object' && value !== null);
 const isBool = (value: unknown): value is boolean => (typeof value === 'boolean');

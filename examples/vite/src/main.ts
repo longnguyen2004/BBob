@@ -2,9 +2,9 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 
-import preset from '@bbob/preset-html5'
-import html from '@bbob/html'
-import { NodeContent } from '@bbob/types'
+import preset from '@lng2004/bbob-preset-html5'
+import html from '@lng2004/bbob-html'
+import { NodeContent } from '@lng2004/bbob-types'
 
 const myPreset = preset.extend(defTags => ({
   ...defTags,

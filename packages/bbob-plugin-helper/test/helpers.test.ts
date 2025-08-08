@@ -10,7 +10,7 @@ import {
     TagNode,
 } from '../src';
 
-describe('@bbob/plugin-helper/helpers', () => {
+describe('@lng2004/bbob-plugin-helper/helpers', () => {
     test('appendToNode', () => {
         const value = 'test';
         const node = {content: []} as TagNode;

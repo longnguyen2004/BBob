@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@bbob/preset-html5": "*",
-    "@bbob/html": "*",
-    "@bbob/types": "*"
+    "@lng2004/bbob-preset-html5": "*",
+    "@lng2004/bbob-html": "*",
+    "@lng2004/bbob-types": "*"
   },
   "devDependencies": {
     "typescript": "^5.2.2",

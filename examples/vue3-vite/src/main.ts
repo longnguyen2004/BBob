@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import VueBbob from '@bbob/vue3';
+import VueBbob from '@lng2004/bbob-vue3';
 import './style.css'
 import App from './App.vue'
 

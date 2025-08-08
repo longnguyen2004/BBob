@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/preset-react",
+  "name": "@lng2004/bbob-preset-react",
   "version": "4.2.0",
   "description": "React preset to transform BBCode to React for @bbob/react",
   "keywords": [
@@ -8,8 +8,8 @@
     "react"
   ],
   "dependencies": {
-    "@bbob/preset-html5": "*",
-    "@bbob/types": "*"
+    "@lng2004/bbob-preset-html5": "*",
+    "@lng2004/bbob-types": "*"
   },
   "peerDependencies": {
     "react": "> 15.0"

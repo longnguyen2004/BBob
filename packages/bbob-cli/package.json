@@ -1,5 +1,5 @@
 {
-  "name": "@bbob/cli",
+  "name": "@lng2004/bbob-cli",
   "version": "4.2.0",
   "description": "Comand line bbcode parser",
   "bin": {
@@ -26,8 +26,8 @@
     }
   },
   "dependencies": {
-    "@bbob/html": "*",
-    "@bbob/preset-html5": "*"
+    "@lng2004/bbob-html": "*",
+    "@lng2004/bbob-preset-html5": "*"
   },
   "devDependencies": {
     "@types/node": "20.11.30"

@@ -3,8 +3,8 @@
   // import viteLogo from '/vite.svg'
   import './lib/Avatar.svelte';
 
-  import preset from '@bbob/preset-html5'
-  import html from '@bbob/html'
+  import preset from '@lng2004/bbob-preset-html5'
+  import html from '@lng2004/bbob-html'
 
   const myPreset = preset.extend(defTags => {
     return ({

@@ -23,9 +23,6 @@ importers:
         specifier: 1.5.3
         version: 1.5.3
     devDependencies:
-      '@bbob/scripts':
-        specifier: '*'
-        version: link:scripts
       '@changesets/changelog-github':
         specifier: 0.4.8
         version: 0.4.8
@@ -38,6 +35,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: 13.2.0
         version: 13.2.0
+      '@lng2004/bbob-scripts':
+        specifier: '*'
+        version: link:scripts
       '@nx/eslint':
         specifier: 18.3.3
         version: 18.3.3(@swc/core@1.3.107)(@types/node@20.4.5)(nx@18.3.3)
@@ -161,10 +161,10 @@ importers:
 
   benchmark:
     dependencies:
-      '@bbob/parser':
+      '@lng2004/bbob-parser':
         specifier: '*'
         version: link:../packages/bbob-parser
-      '@bbob/plugin-helper':
+      '@lng2004/bbob-plugin-helper':
         specifier: '*'
         version: link:../packages/bbob-plugin-helper
       benchmark:
@@ -185,10 +185,10 @@ importers:
 
   examples/react-vite:
     dependencies:
-      '@bbob/preset-react':
+      '@lng2004/bbob-preset-react':
         specifier: '*'
         version: link:../../packages/bbob-preset-react
-      '@bbob/react':
+      '@lng2004/bbob-react':
         specifier: '*'
         version: link:../../packages/bbob-react
       react:
@@ -231,13 +231,13 @@ importers:
 
   examples/svelte-vite:
     dependencies:
-      '@bbob/html':
+      '@lng2004/bbob-html':
         specifier: '*'
         version: link:../../packages/bbob-html
-      '@bbob/preset-html5':
+      '@lng2004/bbob-preset-html5':
         specifier: '*'
         version: link:../../packages/bbob-preset-html5
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../../packages/bbob-types
     devDependencies:
@@ -265,13 +265,13 @@ importers:
 
   examples/vite:
     dependencies:
-      '@bbob/html':
+      '@lng2004/bbob-html':
         specifier: '*'
         version: link:../../packages/bbob-html
-      '@bbob/preset-html5':
+      '@lng2004/bbob-preset-html5':
         specifier: '*'
         version: link:../../packages/bbob-preset-html5
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../../packages/bbob-types
     devDependencies:
@@ -284,10 +284,10 @@ importers:
 
   examples/vue2-example:
     dependencies:
-      '@bbob/preset-vue':
+      '@lng2004/bbob-preset-vue':
         specifier: '*'
         version: link:../../packages/bbob-preset-vue
-      '@bbob/vue2':
+      '@lng2004/bbob-vue2':
         specifier: '*'
         version: link:../../packages/bbob-vue2
       core-js:
@@ -309,10 +309,10 @@ importers:
 
   examples/vue3-vite:
     dependencies:
-      '@bbob/preset-vue':
+      '@lng2004/bbob-preset-vue':
         specifier: '*'
         version: link:../../packages/bbob-preset-vue
-      '@bbob/vue3':
+      '@lng2004/bbob-vue3':
         specifier: '*'
         version: link:../../packages/bbob-vue3
       vue:
@@ -334,10 +334,10 @@ importers:
 
   packages/bbob-cli:
     dependencies:
-      '@bbob/html':
+      '@lng2004/bbob-html':
         specifier: '*'
         version: link:../bbob-html
-      '@bbob/preset-html5':
+      '@lng2004/bbob-preset-html5':
         specifier: '*'
         version: link:../bbob-preset-html5
     devDependencies:
@@ -347,81 +347,81 @@ importers:
 
   packages/bbob-core:
     dependencies:
-      '@bbob/parser':
+      '@lng2004/bbob-parser':
         specifier: '*'
         version: link:../bbob-parser
-      '@bbob/plugin-helper':
+      '@lng2004/bbob-plugin-helper':
         specifier: '*'
         version: link:../bbob-plugin-helper
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
 
   packages/bbob-html:
     dependencies:
-      '@bbob/core':
+      '@lng2004/bbob-core':
         specifier: '*'
         version: link:../bbob-core
-      '@bbob/plugin-helper':
+      '@lng2004/bbob-plugin-helper':
         specifier: '*'
         version: link:../bbob-plugin-helper
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
 
   packages/bbob-parser:
     dependencies:
-      '@bbob/plugin-helper':
+      '@lng2004/bbob-plugin-helper':
         specifier: '*'
         version: link:../bbob-plugin-helper
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
 
   packages/bbob-plugin-helper:
     dependencies:
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
 
   packages/bbob-preset:
     dependencies:
-      '@bbob/plugin-helper':
+      '@lng2004/bbob-plugin-helper':
         specifier: '*'
         version: link:../bbob-plugin-helper
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
     devDependencies:
-      '@bbob/core':
+      '@lng2004/bbob-core':
         specifier: '*'
         version: link:../bbob-core
 
   packages/bbob-preset-html5:
     dependencies:
-      '@bbob/plugin-helper':
+      '@lng2004/bbob-plugin-helper':
         specifier: '*'
         version: link:../bbob-plugin-helper
-      '@bbob/preset':
+      '@lng2004/bbob-preset':
         specifier: '*'
         version: link:../bbob-preset
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
     devDependencies:
-      '@bbob/core':
+      '@lng2004/bbob-core':
         specifier: '*'
         version: link:../bbob-core
-      '@bbob/html':
+      '@lng2004/bbob-html':
         specifier: '*'
         version: link:../bbob-html
 
   packages/bbob-preset-react:
     dependencies:
-      '@bbob/preset-html5':
+      '@lng2004/bbob-preset-html5':
         specifier: '*'
         version: link:../bbob-preset-html5
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
     devDependencies:
@@ -437,29 +437,29 @@ importers:
 
   packages/bbob-preset-vue:
     dependencies:
-      '@bbob/preset-html5':
+      '@lng2004/bbob-preset-html5':
         specifier: '*'
         version: link:../bbob-preset-html5
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
 
   packages/bbob-react:
     dependencies:
-      '@bbob/core':
+      '@lng2004/bbob-core':
         specifier: '*'
         version: link:../bbob-core
-      '@bbob/html':
+      '@lng2004/bbob-html':
         specifier: '*'
         version: link:../bbob-html
-      '@bbob/plugin-helper':
+      '@lng2004/bbob-plugin-helper':
         specifier: '*'
         version: link:../bbob-plugin-helper
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
     devDependencies:
-      '@bbob/preset-react':
+      '@lng2004/bbob-preset-react':
         specifier: '*'
         version: link:../bbob-preset-react
       '@testing-library/jest-dom':
@@ -482,20 +482,20 @@ importers:
 
   packages/bbob-vue2:
     dependencies:
-      '@bbob/core':
+      '@lng2004/bbob-core':
         specifier: '*'
         version: link:../bbob-core
-      '@bbob/html':
+      '@lng2004/bbob-html':
         specifier: '*'
         version: link:../bbob-html
-      '@bbob/plugin-helper':
+      '@lng2004/bbob-plugin-helper':
         specifier: '*'
         version: link:../bbob-plugin-helper
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
     devDependencies:
-      '@bbob/preset-vue':
+      '@lng2004/bbob-preset-vue':
         specifier: '*'
         version: link:../bbob-preset-vue
       '@testing-library/vue':
@@ -510,20 +510,20 @@ importers:
 
   packages/bbob-vue3:
     dependencies:
-      '@bbob/core':
+      '@lng2004/bbob-core':
         specifier: '*'
         version: link:../bbob-core
-      '@bbob/html':
+      '@lng2004/bbob-html':
         specifier: '*'
         version: link:../bbob-html
-      '@bbob/plugin-helper':
+      '@lng2004/bbob-plugin-helper':
         specifier: '*'
         version: link:../bbob-plugin-helper
-      '@bbob/types':
+      '@lng2004/bbob-types':
         specifier: '*'
         version: link:../bbob-types
     devDependencies:
-      '@bbob/preset-vue':
+      '@lng2004/bbob-preset-vue':
         specifier: '*'
         version: link:../bbob-preset-vue
       '@testing-library/vue':

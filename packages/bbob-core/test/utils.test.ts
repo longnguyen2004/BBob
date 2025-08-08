@@ -1,7 +1,7 @@
 import { iterate, match, same } from '../src/utils';
-import { isTagNode } from "@bbob/plugin-helper";
+import { isTagNode } from "@lng2004/bbob-plugin-helper";
 
-describe('@bbob/core utils', () => {
+describe('@lng2004/bbob-core utils', () => {
   test('iterate', () => {
     const testArr = [{
       one: true,

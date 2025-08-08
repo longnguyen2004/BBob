@@ -3,8 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import preset from '@bbob/preset-react'
-import BBCode from '@bbob/react'
+import preset from '@lng2004/bbob-preset-react'
+import BBCode from '@lng2004/bbob-react'
 import Avatar from "./components/Avatar";
 
 const myPreset = preset.extend(defTags => ({

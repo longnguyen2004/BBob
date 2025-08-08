@@ -1,12 +1,12 @@
-import { TagNode } from '@bbob/parser';
+import { TagNode } from '@lng2004/bbob-parser';
 import core, { BBobPluginFunction, BBobPlugins } from '../src';
-import { isTagNode } from "@bbob/plugin-helper";
+import { isTagNode } from "@lng2004/bbob-plugin-helper";
 
 const stringify = (val: unknown) => JSON.stringify(val);
 
 const process = (plugins: BBobPlugins, input: string) => core(plugins).process(input, { render: stringify });
 
-describe('@bbob/core', () => {
+describe('@lng2004/bbob-core', () => {
   test('parse bbcode string to ast and html', () => {
     const res = process([], '[style size="15px"]Large Text[/style]');
     const ast = res.tree;

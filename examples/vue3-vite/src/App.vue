@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import preset from '@bbob/preset-vue'
+import preset from '@lng2004/bbob-preset-vue'
 import Avatar from "./components/Avatar.vue";
 
 const myPreset = preset.extend(defTags => ({

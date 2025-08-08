@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import type { BBobPlugins, BBobCoreOptions } from '@bbob/types';
+import type { BBobPlugins, BBobCoreOptions } from '@lng2004/bbob-types';
 
 import { render } from './render';
 

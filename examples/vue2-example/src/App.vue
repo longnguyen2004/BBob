@@ -18,7 +18,7 @@
 
 <script>
 import Vue from 'vue'
-import preset from '@bbob/preset-vue'
+import preset from '@lng2004/bbob-preset-vue'
 import MyTag from './MyTagComponent'
 
 const myPreset = preset.extend(defTags => ({

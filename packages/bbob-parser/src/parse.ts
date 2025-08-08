@@ -1,11 +1,11 @@
-import type { NodeContent, TagNodeTree, LexerTokenizer, ParseOptions } from "@bbob/types";
+import type { NodeContent, TagNodeTree, LexerTokenizer, ParseOptions } from "@lng2004/bbob-types";
 
 import {
   CLOSE_BRAKET,
   OPEN_BRAKET,
   TagNode,
   isTagNode,
-} from "@bbob/plugin-helper";
+} from "@lng2004/bbob-plugin-helper";
 
 import { createLexer } from "./lexer.js";
 

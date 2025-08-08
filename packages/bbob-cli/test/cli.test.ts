@@ -3,7 +3,7 @@ const path = require('path');
 
 const pathToBin = path.resolve(__dirname, '../lib/cli.js')
 
-describe('@bbob/cli', () => {
+describe('@lng2004/bbob-cli', () => {
   test('simple string', () => {
     const stdout = execSync(`echo "hello" | ${pathToBin}`);
 

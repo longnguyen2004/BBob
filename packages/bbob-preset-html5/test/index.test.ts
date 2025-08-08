@@ -1,5 +1,5 @@
-import html, { render } from '@bbob/html'
-import core from '@bbob/core'
+import html, { render } from '@lng2004/bbob-html'
+import core from '@lng2004/bbob-core'
 
 import preset from '../src'
 
@@ -9,7 +9,7 @@ const parse = (input: string) => {
   return html(input, preset())
 };
 
-describe('@bbob/preset-html5', () => {
+describe('@lng2004/bbob-preset-html5', () => {
   test('[b]bolded text[/b]', () => {
     const input = '[b]bolded text[/b]';
     const result = '<span style="font-weight: bold;">bolded text</span>';

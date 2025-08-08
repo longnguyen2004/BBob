@@ -10,9 +10,9 @@
     "check": "svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json"
   },
   "dependencies": {
-    "@bbob/preset-html5": "*",
-    "@bbob/html": "*",
-    "@bbob/types": "*"
+    "@lng2004/bbob-preset-html5": "*",
+    "@lng2004/bbob-html": "*",
+    "@lng2004/bbob-types": "*"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.1.1",

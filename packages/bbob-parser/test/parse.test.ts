@@ -1,5 +1,5 @@
 import { parse } from '../src';
-import type { TagNode, TagNodeTree } from "@bbob/types";
+import type { TagNode, TagNodeTree } from "@lng2004/bbob-types";
 
 describe('Parser', () => {
   const expectOutput = (ast: TagNodeTree, output: Partial<TagNodeTree>) => {

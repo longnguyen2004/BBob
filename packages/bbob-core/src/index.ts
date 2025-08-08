@@ -6,9 +6,9 @@ import type {
   IterateCallback,
   NodeContent,
   PartialNodeContent
-} from "@bbob/types";
+} from "@lng2004/bbob-types";
 
-import { parse } from '@bbob/parser';
+import { parse } from '@lng2004/bbob-parser';
 import { iterate, match } from './utils.js';
 import { C1, C2 } from './errors.js'
 
